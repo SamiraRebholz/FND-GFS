@@ -3,11 +3,11 @@ class MyNavbar extends HTMLElement {
       this.innerHTML = `
         <nav>
           <ul>
-            <li><a href="./index.html"><img src="./Assets/icons/home.svg" alt="home" class="noOverlay"></a></li>
+            <li><a href="./"><img src="./Assets/icons/home.svg" alt="home" class="noOverlay"></a></li>
             <li class="hidden menu"><a><img src="./Assets/icons/menu.svg" alt="menu" class="noOverlay"></a></li>
-            <li><a href="./symptoms.html">Diagnostik & Symptome</a></li>
-            <li><a href="./mechanism.html">Pathophysiologie</a></li>
-            <li><a href="./treatment.html">Behandlung</a></li>
+            <li><a href="./">Diagnostik & Symptome</a></li>
+            <li><a href="./">Pathophysiologie</a></li>
+            <li><a href="./">Behandlung</a></li>
             <li><a href="./sources.html">Quellen</a></li>
             <li><img src="./Assets/icons/settings.svg" class="noOverlay settings"></li>
           </ul>
@@ -35,10 +35,10 @@ class MyNavbar extends HTMLElement {
     <div class="modal navModal" style="display:none;">
       <ul>
         <li><a><img src="./Assets/icons/closeWhite.svg" alt="close" class="noOverlay close"></a></li>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./symptoms.html">Diagnostik & Symptome</a></li>
-        <li><a href="./mechanism.html">Pathophysiologie</a></li>
-        <li><a href="./treatment.html">Behandlung</a></li>
+        <li><a href="./">Home</a></li>
+        <li><a href="./">Diagnostik & Symptome</a></li>
+        <li><a href="./">Pathophysiologie</a></li>
+        <li><a href="./">Behandlung</a></li>
         <li><a href="./sources.html">Quellen</a></li>
       </ul>
     </div>
